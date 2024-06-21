@@ -16,7 +16,7 @@ This repository contains a simple Convolutional Neural Network (CNN) for classif
 You can install the required packages using `pip`:
 
 ```bash
-pip install tensorflow keras opencv-python matplotlib numpy
+pip3 install tensorflow keras opencv-python matplotlib numpy
 ```
 ## Training the Model
 
@@ -26,7 +26,7 @@ To train the model, run the cifar10_model.py script. This script will:
 2. Define and train a CNN model.
 3. Save the trained model to a file named image_classifier.keras.
 ```bash
-python cifar10_model.py
+python3 cifar10_model.py
 ```
 ## Making Predictions
 
@@ -35,5 +35,5 @@ To use the trained model to make predictions on new images, run the predict.py s
 1. Update the image path in the predict.py script if needed.
 2. Run the script to make a prediction.
 ```bash
-python predict.py
+python3 predict.py
 ```
